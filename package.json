@@ -1,0 +1,32 @@
+{
+  "name": "twd-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grumbash/TWD-landing.git"
+  },
+  "author": "Rosev Gleb,  Yuri Petyhov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grumbash/TWD-landing/issues"
+  },
+  "homepage": "https://github.com/Grumbash/TWD-landing#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-sourcemaps": "^2.6.4",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
