@@ -7,7 +7,8 @@ const gulp = require('gulp'),
       plumber = require('gulp-plumber'),
       map = require('gulp-sourcemaps'),
       glob = require('gulp-sass-glob'),
-      rimraf = require('rimraf');
+      rimraf = require('rimraf'),
+      fileinclude = require('gulp-file-include');
 
 const paths = {
 	distDir: 'dist/',
@@ -28,6 +29,10 @@ const paths = {
 gulp.task('view', () =>{
 	return gulp.src([paths.devDir.views + 'index.html'])
 	.pipe(plumber())
+  .pipe(fileinclude({
+      prefix: '@@',
+      basepath: '@file'
+    }))
 	.pipe(gulp.dest([paths.distDir]))
 	.pipe(server.stream());
 });
