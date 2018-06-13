@@ -8,8 +8,8 @@ const gulp = require('gulp'),
       map = require('gulp-sourcemaps'),
       glob = require('gulp-sass-glob'),
       rimraf = require('rimraf'),
-	  fileinclude = require('gulp-file-include'),
-	
+	    fileinclude = require('gulp-file-include');
+
 
 const paths = {
 	distDir: 'dist/',
@@ -36,7 +36,7 @@ gulp.task('view', () =>{
     }))
 	.pipe(gulp.dest([paths.distDir]))
 	.pipe(server.stream())
-	 
+
 });
 
 
