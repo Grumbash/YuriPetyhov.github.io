@@ -8,14 +8,15 @@ const gulp = require('gulp'),
       map = require('gulp-sourcemaps'),
       glob = require('gulp-sass-glob'),
       rimraf = require('rimraf'),
-      fileinclude = require('gulp-file-include');
+	  fileinclude = require('gulp-file-include'),
+	
 
 const paths = {
 	distDir: 'dist/',
 	devDir: {
 		views: 'src/',
 		styles:'src/styles/',
-		js: 'src/js/'
+		js: 'src/js/',
 	},
 	modules: 'node_modules/'
 }
@@ -34,8 +35,14 @@ gulp.task('view', () =>{
       basepath: '@file'
     }))
 	.pipe(gulp.dest([paths.distDir]))
-	.pipe(server.stream());
+	.pipe(server.stream())
+	 
 });
+
+
+
+
+
 
 /******* FONTS *******/
 
