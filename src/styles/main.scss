@@ -1,2 +1,13 @@
 @import "**.scss";
-@import "../../node_modules/reset-css/sass/_reset.scss"
+@import "../../node_modules/reset-css/sass/_reset.scss";
+@import url('https://fonts.googleapis.com/css?family=Anton|Indie+Flower|Josefin+Sans');
+
+.flex {
+	display: flex;
+	justify-content: space-between
+}
+.wrap{
+	width:900px;
+	margin: 0 auto;
+
+}

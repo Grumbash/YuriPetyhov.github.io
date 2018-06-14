@@ -1,12 +1,4 @@
-.flex {
-	display: flex;
-	justify-content: space-between
-}
-.wrap{
-	width:900px;
-	margin: 0 auto;
 
-}
 .header{
 	height: 40px;
 	background: #181818;
@@ -20,11 +12,16 @@
 		align-items: center;
 		justify-content: center;
 		border:3px solid #181818;
+		text-decoration: none;
+		font-family: 'Anton', sans-serif;
 		&:not(.header_items-logo){
 			&:hover{
 				border:3px solid #4e3317;
 	
 			}
+		}
+		&-logo{
+			width:110px;
 		}
 	
 	}
