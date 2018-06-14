@@ -93,6 +93,7 @@ gulp.task('js', () => {
 gulp.task('watch', () => {
 	gulp.watch(paths.devDir.views + '**/*.html', gulp.series('view')) ;
 	gulp.watch(paths.devDir.styles + '**/*.scss', gulp.series('sass'));
+	gulp.watch(paths.devDir.js + '**/*.js', gulp.series('js'));
 });
 
 

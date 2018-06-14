@@ -1,2 +1,4 @@
-console.log("sdsd")
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtYWluLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImNvbnNvbGUubG9nKFwic2RzZFwiKSJdLCJmaWxlIjoibWFpbi5qcyJ9
+console.log("sdsd");
+console.log(2222);
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtYWluLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImNvbnNvbGUubG9nKFwic2RzZFwiKTtcbmNvbnNvbGUubG9nKDIyMjIpO1xuIl0sImZpbGUiOiJtYWluLmpzIn0=
