@@ -1,0 +1,13 @@
+.footer{
+    height: 40px;
+    background: #181818;
+   display: flex;
+   align-items: center;
+   
+
+   &__item{
+    color:#d3d3d3;
+       text-decoration: none;
+   }
+   
+}

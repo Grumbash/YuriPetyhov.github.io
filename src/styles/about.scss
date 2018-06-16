@@ -1,0 +1,26 @@
+
+.about{
+    padding-top:20px;
+    background:url('../images/background.jpg');
+    display: flex;
+    align-items: center;
+     .info{
+        
+       div{
+           margin-bottom: 15px;
+       };
+       &__title{
+        color: #e8930d;
+        font-weight: bolder;
+        font-family: 'Anton', sans-serif;
+       };
+
+       &__branding{
+           color: #fdfdfe;
+
+       }
+       &__text{
+        font-family: 'Indie Flower', cursive;
+       }
+    }
+}

@@ -1,6 +1,5 @@
 .slider {
     padding-top: 10px;
-    min-height: 300px;
     display: flex;
     align-content: stretch;
     background: url("/images/1.jpg") no-repeat;
@@ -15,9 +14,7 @@
         &__item{
             border:2px solid #eaeeee;
             width: 20px;
-            &#firstImg{
-                background: #e8930d
-            }
+
         }
     }
     .nav {
@@ -60,4 +57,8 @@
             color:#a0a39d;
         }
     }
+}
+
+.activ{
+    background: #e8930d
 }

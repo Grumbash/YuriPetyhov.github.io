@@ -2,12 +2,15 @@
 @import "../../node_modules/reset-css/sass/_reset.scss";
 @import url('https://fonts.googleapis.com/css?family=Anton|Indie+Flower|Josefin+Sans');
 
+.slider,.about{
+	min-height: 400px;
+}
 .flex {
 	display: flex;
 	justify-content: space-between
 }
 .wrap{
-	width:900px;
+	width:790px;
 	margin: 0 auto;
 
 }

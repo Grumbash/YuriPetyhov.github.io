@@ -24,7 +24,7 @@
     
 </div>
  
-<div class="slider">
+<div class="slider" id = "sliderJs">
     <div class="wrap flex">
             <div class="slider__items info">
                     <p class="info__title">Play with us</p>
@@ -32,18 +32,51 @@
                     <button class="info__btn">Follow me </button>
                 </div>
                 <div class="slider__items radioNav">
-                    <div class="radioNav__item" id="firstImg"></div>
+                    <div class="radioNav__item activ" id="firstImg"></div>
                     <div class="radioNav__item" id="secondImg"></div>
                     <div class="radioNav__item" id="thirdImg"></div>
                     <div class="radioNav__item" id="fourthImg"></div>
                 </div>
-                <div class="slider__items nav">
-                    <div class="nav__item nav__item-left"><i class="fas fa-arrow-left"></i></div>
-                    <div class="nav__item nav__item-right"><i class="fas fa-arrow-right"></i></div>
+                <div class="slider__items nav" id="navControl">
+                    <div class="nav__item nav__item-left" id="controlLeft"><i class="fas fa-arrow-left" id="arrowLeft"></i></div>
+                    <div class="nav__item nav__item-right" id="controlRight"><i class="fas fa-arrow-right" id="arrowRight"></i></div>
                 </div>
 
     </div>
    
+</div>
+  
+            <div class="about">
+                <div class="wrap flex">
+                        <div class="about__info info">
+                                <div class="info__title">About our project</div>
+                                <div class="info__branding">Сreate a sharpening </div>
+                                <div class="info__text">
+                                        We decided that we will not use frameworks and libraries, because we want to learn the basic technology of the front-end. Namely: JavaScript, HTML, CSS. We believe that this will help to improve our skills in web development and to feel what it is like to work without frameworks and libraries.</div>
+        
+                                </div>
+        
+                            <div class="about__img"><img src="./images/screen.gif" alt=""></div>
+
+                </div>
+                  
+                </div>
+    
+
+ 
+<div class="banner">
+        <video  muted class="banner__video" poster="video.jpg" id="bannerVideo">
+                <source src="./images/trailer.mp4" type="video/mp4">
+        </video>
+        <div class="banner__control" id="bannerControl"><i class="far fa-play-circle"></i></div>
+      </div>
+ <div class="footer">
+    <div class="wrap flex">
+        <a href='#' class="footer__item footer__item-contacts">Contacts</a>
+        <a href='#' class="footer__item footer__item-about">About us</a>
+        
+    </div>
+    
 </div>
 
  <script src="./js/main.js"></script>
