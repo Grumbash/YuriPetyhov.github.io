@@ -12,7 +12,7 @@ const gulp = require('gulp'),
 
 
 const paths = {
-	distDir: 'dist/',
+	distDir: './',
 	devDir: {
 		views: 'src/',
 		styles:'src/styles/',
