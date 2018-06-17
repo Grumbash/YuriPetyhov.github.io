@@ -59,10 +59,10 @@ gulp.task('fontsProd', () => {
 
 /******* LIBRARIES *******/
 
-gulp.task('libs', () => {
-	return gulp.src([paths.modules + 'font-awesome/css/font-awesome.min.css'])
-			.pipe(gulp.dest([paths.distDir + 'libs']));
-});
+// gulp.task('libs', () => {
+// 	return gulp.src([paths.modules + 'font-awesome/css/font-awesome.min.css'])
+// 			.pipe(gulp.dest([paths.distDir + 'libs']));
+// });
 
 /******* SASS *******/
 
@@ -110,4 +110,4 @@ gulp.task('server', () => {
 });
 
 //default
-gulp.task('default',gulp.series('libs', 'fonts', gulp.parallel('js', 'view', 'server', 'watch', 'sass')));
+gulp.task('default',gulp.series( gulp.parallel('js', 'view', 'server', 'watch', 'sass')));
