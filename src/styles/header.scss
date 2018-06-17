@@ -22,7 +22,14 @@
 		}
 		&-logo{
 			width:110px;
-		}
+			
+				width:110px;
+				img{
+					width: 100%;
+					height: inherit;
+				}
+			}
+		
 	
 	}
 	

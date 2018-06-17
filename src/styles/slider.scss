@@ -2,7 +2,7 @@
     padding-top: 10px;
     display: flex;
     align-content: stretch;
-    background: url("/images/1.jpg") no-repeat;
+    background: url("/images/1.png") no-repeat;
     background-size: 100% 100%;
     .radioNav {
         margin-bottom: 25px;
@@ -14,7 +14,6 @@
         &__item{
             border:2px solid #eaeeee;
             width: 20px;
-
         }
     }
     .nav {
@@ -24,6 +23,7 @@
         justify-content: space-between;
         align-self: flex-end;
          margin-bottom: 50px;
+         margin-right: 25px;
             &__item{
                 width: 50%;
                 border:2px solid #e8930d;
@@ -37,7 +37,7 @@
     }
     .info {
         width: 200px;
-        height: 120px;
+        height: 114px;
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -55,6 +55,11 @@
         &__quote{
             font-family: 'Indie Flower', cursive;
             color:#a0a39d;
+            font-size: 20px;
+        }
+        &__title{
+           font-family: "Anton";
+           font-size: 18px;
         }
     }
 }

@@ -6,8 +6,11 @@ var bannerVideo = document.getElementById("bannerVideo");
 console.log(bannerVideo);
 
 var count = 0;
-const img = ['./images/1.jpg', './images/2.jpg', "./images/3.jpg", "./images/4.jpg"]
-nav.addEventListener("click", function (e) {
+const img = ['./images/1.png', './images/2.png', "./images/3.png", "./images/4.png"]
+slider.addEventListener("click", function (e) {
+    if(e.target.id =='infoBth'){
+        window.location.replace("https://grumbash.github.io/");
+    };
 
     if (e.target.id == "controlLeft" || e.target.id == "arrowLeft") {
 
@@ -41,7 +44,7 @@ nav.addEventListener("click", function (e) {
         slider.style.backgroundRepeat = "no-repeat";
         slider.style.backgroundSize = "100% 100%";
         radio[count].classList.add("activ")
-    }
+    };
 
 
 })

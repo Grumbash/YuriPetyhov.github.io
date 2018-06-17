@@ -1,13 +1,27 @@
 .footer{
-    height: 40px;
-    background: #181818;
-   display: flex;
-   align-items: center;
-   
+	height: 70px;
+	background: #181818;
+    align-items: center;
+    display: flex;
 
-   &__item{
-    color:#d3d3d3;
-       text-decoration: none;
-   }
-   
+    .social{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        a{
+            font-size: 20px;
+            text-decoration: none;
+            color: #d3d3cd;
+            display: block;
+            margin-bottom: 5px;
+        }
+        p{
+            font-family: 'Anton';
+            color: #d3d3cd;
+            &:hover{
+                color: #4e3317
+            }
+        }
+    }
+    
 }
