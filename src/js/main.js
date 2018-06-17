@@ -1,6 +1,3 @@
-
-
-
 var radio = document.getElementsByClassName("radioNav__item");
 var nav = document.getElementById("navControl");
 var slider = document.getElementById("sliderJs");
@@ -46,20 +43,20 @@ nav.addEventListener("click", function (e) {
         radio[count].classList.add("activ")
     }
 
-  
+
 })
 
 bannerControl.addEventListener('click',function(e){
-    if(e.target.id == "bannerControl"){
-       
-        bannerVideo.play(); 
+    if(e.target.id === "bannerControl"){
+
+        bannerVideo.play();
         bannerControl.style.display="none";
-        document.getElementsByClassName("banner__video")[0].style.opacity="1";
-    } 
-      
-    })
-    bannerVideo.addEventListener('ended',function(e){
-        document.getElementsByClassName("banner__video")[0].style.opacity="0.5";
-        bannerControl.style.display="flex";
-        
-    },false)
+        bannerVideo.style.opacity="1";
+    }
+
+});
+bannerVideo.addEventListener('ended',function(e){
+    bannerVideo.style.opacity="0.5";
+    bannerControl.style.display="flex";
+
+},false)
