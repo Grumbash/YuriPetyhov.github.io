@@ -1,0 +1,76 @@
+.contacts{
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  color: #fff;
+  &__title{
+    font-family: 'Anton', sans-serif;
+    font-size: 36px;
+    text-align: center;
+  }
+  &__img{
+    &-gleb{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      background-image: url("../images/rosevgleb.jpg");
+      background-size:cover;
+    }
+    &-yuri{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      background: url("../images/YueiPetuchov.jpg");
+      background-size:cover;
+    }
+  }
+  &__wrapp-cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15%;
+  }
+  &__name{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+  }
+  &__list{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    align-items: flex-start;
+    height: 40px;
+  }
+  &__item{
+    i{
+      transition: .5s ease;
+      color: #fff;
+      text-decoration: none;
+      font-size: 30px;
+      &:hover{
+        font-size: 40px;
+        border-radius: 5%;
+        background-color: #fff;
+        color: #000;
+      }
+    }
+  }
+  &__requirements{
+    margin-bottom: 20px;
+    &__item{
+      padding: 5px;
+      font-family: 'Anton', sans-serif;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}
+.requirements{
+  &__title{
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
